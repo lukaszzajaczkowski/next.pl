@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="next.pl Test Suite">
+    <test name = "BaseTest">
+        <parameter name="email" value="TESTOWY123321@OP.PL"></parameter>
+        <parameter name="password" value="HasloTest1"></parameter>
+        <parameter name="searchPhrase" value="JEANSY"></parameter>
+        <parameter name="productToBuy" value="PIŁKA"></parameter>
+        <parameter name="priceOfItem" value="134,00 zł"></parameter>
+        <classes>
+            <class name="LoggingTests"></class>
+            <class name="BuyingProcessTests"></class>
+            <class name="SearchingTests"></class>
+            <class name="ShoppingCartTests"></class>
+
+        </classes>
+    </test>
+</suite>
